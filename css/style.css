@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+
+/* navber css start */
+.navbar{
+    padding: 15px 0;
+    background-color: rgb(248, 236, 218);
+}
+
+.navbar-brand img{
+    height: 45px;
+    width: 240px;
+}
+
+.navbar-nav .nav-item .nav-link{  
+    font-weight: bold;
+    margin: 0 10px;
+    padding: 8px 12px;
+    border-radius: 12px;
+    transition: all linear 0.2s;
+}
+
+.navbar-nav .nav-item .nav-link:hover{  
+    background-color: white;
+    color: red;
+    transform: scale(1.1);
+}
+
+.dropdown .dropdown-menu{
+    background-color: rgb(248, 236, 218);
+    text-align: center;
+}
+
+.dropdown-item{
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 10px;
+    transition: all linear 0.2s;
+}
+
+.dropdown-item:hover{
+    color: red;
+}
+
+.search-icon .fa{
+    font-weight: bold;
+    transition: all linear 0.2s;
+}
+
+.search-icon .fa:hover{
+    transform: scale(1.5);
+    color: red;
+}
+/* navber css end */
+
+
+
+/* banner css start */
+.banner-img{
+    position: relative;
+}
+
+.banner-content{
+    position: absolute;
+    top: 130px;
+    left: 50px;
+}
+
+.banner-content h1{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.banner-content h1 span{
+    color: rgb(252, 42, 42);
+}
+
+.banner-content h1 span .offer{
+    color: blue;
+}
+
+.banner-content p{
+    padding: 0 510px 0 0;
+    font-size: 16px;
+    color: red
+}
+
+.banner-btn{
+    background-color: rgb(250, 55, 55);
+    color: white;
+    margin-top: 30px;
+    padding: 8px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all linear 0.2s;
+}
+.banner-btn:hover{
+    background-color: rgb(204, 194, 194);
+    transform: scale(1.1);
+    color: rgb(250, 55, 55);
+}
+/* banner css end */
+
+
+
+/* shop us css start */
+#shop-us{
+    padding: 50px 0;
+    text-align: center;
+}
+
+.shop-us-content h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.shop-border{
+    background-color:  rgb(252, 42, 42);
+    height: 5px;
+    width: 150px;
+    margin: auto;
+}
+
+.shop-content{
+    background-color: rgb(9, 9, 58);
+    border-radius: 12px;
+    box-shadow: 2px 2px 10px 2px grey;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: white;
+    padding: 50px;transition: all linear 0.2s;
+}
+
+.shop-content:hover{
+    background-color: rgb(6, 6, 44);
+    transform: scale(1.1);
+}
+
+.shop-icon .fa{
+    font-size: 30px;
+}
+
+.shop-content h2{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.shop-content p{
+    font-size: 20px;
+}
+/* shop us css end */
+
+
+
+/* new-arrivals css start */
+#new-arrivals-sec{
+    padding: 10px 0 70px 0;
+}
+.arrivals-img{
+    position: relative;
+}
+.arrivals-content{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    padding-right: 20px;
+}
+.arrivals-content h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.arrivals-content p{
+    font-size: 20px;
+}
+/* new-arrivals css end */
+
+
+
+/* products-sec css start */
+#products-sec{
+    text-align: center;
+}
+
+.product-title h1{
+    font-weight: bold;
+    font-size: 60px;
+}
+.product-border{
+    background-color:  rgb(252, 42, 42);
+    height: 5px;
+    width: 150px;
+    margin: auto;
+}
+
+.product-img img{
+    background-color: rgb(235, 239, 243);
+    border: 2px solid rgb(231, 231, 248);
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    height: 250px;
+    width: 200px;
+    opacity: 0.8;
+    transition: all linear 0.2s;
+}
+
+.product-img img:hover{
+    transform: scale(1.1);
+    background-color: white;
+    border: none;
+    opacity: 1;
+}
+
+.product-info span{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.overly-content button{
+    padding: 2px 5px;
+    background-color: rgb(252, 42, 42);
+    color: white;
+    font-weight: bold;
+    transition: all linear 0.2s;
+}
+
+.overly-content button:hover{
+    background-color: white;
+    color: rgb(252, 42, 42);
+}
+.view-btn{
+    padding: 8px 30px;
+    background-color: rgb(252, 42, 42);
+    color: white;
+    font-weight: bold;
+    transition: all linear 0.2s;
+}
+.view-btn:hover{
+    background-color: white;
+    color: rgb(252, 42, 42);
+}
+
+/* products-sec css end */
+
+
+
+/* subscribe css start */
+#subcribe-sec{
+    background-color: rgb(230, 211, 211);
+}
+.subcribe-form{
+    margin-top: 30px;
+    padding: 70px 250px;  
+    text-align: center;
+}
+.subcribe-form h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.subcribe-form p{
+    font-size: 20px;
+}
+
+.subcribe-form input{
+    padding: 15px;
+    border-radius: 30px;
+}
+.subcribe-btn{
+    padding: 10px 50px;
+    background-color: rgb(252, 42, 42);
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    transition: all linear 0.2s;
+}
+.subcribe-btn:hover{
+    background-color: white;
+    color: rgb(252, 42, 42);
+}
+/* subscribe css end */
+
+
+
+/* testimonial css start */
+#testimonial-sec{
+    text-align: center;
+}
+.testimonial-content{
+    padding: 50px 0;
+}
+.testimonial-content h1{
+    font-weight: bold;
+    font-size: 60px;
+}
+.test-border{
+    background-color: rgb(252, 42, 42);
+    height: 5px;
+    width: 150px;
+    margin: auto;
+}
+.testimonial-img img{
+    border: 5px solid rgb(115, 115, 189);
+    border-radius: 50%;
+    margin-top: 20px;
+    transition: all linear 0.2s;
+}
+.testimonial-img img:hover{
+    border-radius: 8px;
+}
+.more-content h2{
+    font-weight: bold;
+}
+.more-content p{
+    font-size: 20px;
+    padding: 10px 100px;
+}
+/* testimonial css end */
+
+
+
+#footer-sec{
+    background-color: antiquewhite;
+    padding-top: 30px;
+}
+
+.footer-content{
+    padding-bottom: 60px;
+}
+
+.footer-content img{
+    height: 45px;
+    width: 240px;
+}
+
+.footer-content h5{
+    font-weight: bold;
+}
+
+.footer-content a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-content a:hover{
+    color: red;
+}
+
+
+

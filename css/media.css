@@ -1,0 +1,254 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    
+
+    .navbar {
+        padding: 15px 10px;
+    }
+    .navbar-brand img {
+        height: 30px;
+        width: 150px;
+    }
+    .search-icon {
+        text-align: center;
+    }
+    .banner-content {
+        top: 10px;
+        left: 25px;
+    }
+    .banner-content h1 {
+        font-size: 25px;
+    }
+    .banner-content p {
+        padding: 0 19px 0 0;
+        font-size: 12px;
+        color: black;
+    }
+    .banner-btn {
+        margin-top: 10px;
+        padding: 2px 15px;
+        font-size: 15px;
+    }
+    .shop-us-content h1 {
+        font-size: 25px;
+    }
+    .shop-content {
+        margin: 15px;
+    }
+    .shop-content {
+        margin-top: 25px;
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+    .shop-content h2 {
+        margin-top: 10px;
+        font-size: 25px;
+    }
+    .arrivals-content {
+        top: 5%;
+        left: 42%;
+        padding-right: 5px;
+    }
+    .arrivals-content h1 {
+        font-size: 24px;
+    }
+    .arrivals-content p {
+        font-size: 10px;
+    }
+    a.btn.btn-outline-danger.banner-btn {
+        padding: 0px 10px;
+        margin-top: -18px;
+    }
+    .product-title h1 {
+        font-size: 30px;
+    }
+    .subcribe-form {
+        margin-top: 30px;
+        padding: 30px 0px;
+    }
+    .subcribe-form h1 {
+        font-size: 30px;
+    }
+    .subcribe-form p {
+        font-size: 16px;
+    }
+    .subcribe-form input {
+        padding: 8px;
+        border-radius: 15px;
+    }
+    .testimonial-content h1 {
+        font-size: 25px;
+    }
+    .more-content h2 {
+        font-size: 25px;
+        margin-top: 15px;
+    }
+    .more-content p {
+        font-size: 14px;
+        padding: 10px 10px;
+    }
+    p.sub-p {
+        font-size: 12px;
+    }
+    .footer-content img {
+        height: 40px;
+        width: 230px;
+    }
+    #footer-sec {
+        text-align: center;
+    }
+    .footer-content {
+        padding-bottom: 25px;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+
+    .search-icon {
+        text-align: center;
+    }
+    .banner-content {
+        position: absolute;
+        top: 35px;
+        left: 30px;
+    }
+    .banner-content h1 {
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .banner-content p {
+        padding: 0 10px 0 0;
+        font-size: 16px;
+        color: #0400ff;
+    }
+    .shop-us-content h1 {
+        font-size: 40px;
+    }
+    .arrivals-content {
+        top: 10%;
+        left: 45%;
+        padding-right: 5px;
+    }
+    .arrivals-content h1 {
+        font-size: 40px;
+    }
+    .arrivals-content p {
+        font-size: 16px;
+    }
+    a.btn.btn-outline-danger.banner-btn {
+        margin-top: 10px;
+    }
+    .product-title h1 {
+        font-weight: bold;
+        font-size: 45px;
+    }
+    .subcribe-form {
+        margin-top: 30px;
+        padding: 40px 0px;
+    }
+    .subcribe-form h1 {
+        font-size: 30px;
+    }
+    .subcribe-form p {
+        font-size: 14px;
+    }
+    .subcribe-form input {
+        padding: 8px 20px;
+        border-radius: 20px;
+    }
+    .testimonial-content h1 {
+        font-size: 40px;
+    }
+    .more-content p {
+        font-size: 16px;
+        padding: 10px;
+    }
+    section#footer-sec {
+        text-align: center;
+    }
+    .footer-content {
+        padding-bottom: 20px;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+
+
+    .search-icon {
+        text-align: center;
+    }
+    .banner-content {
+        top: 45px;
+    }
+    .banner-content h1 {
+        font-size: 55px;
+    }
+    .banner-content p {
+        padding: 0px 50px 0 0;
+        font-size: 18px;
+    }
+    .shop-us-content h1 {
+        font-size: 55px;
+    }
+    .shop-content {
+        margin: 30px;
+    }
+    .arrivals-content {
+        top: 12%;
+        left: 45%;
+        padding-right: 10px;
+    }
+    .arrivals-content h1 {
+        font-size: 55px;
+    }
+    .subcribe-form {
+        margin-top: 30px;
+        padding: 50px 30px;
+    }
+    .subcribe-form h1 {
+        font-size: 42px;
+    }
+    .subcribe-form p {
+        font-size: 18px;
+    }
+    .subcribe-form input {
+        padding: 10px 30px;
+        border-radius: 20px;
+    }
+    .testimonial-content h1 {
+        font-size: 55px;
+    }
+    .col-lg-4.col-md-12 {
+        text-align: center;
+    }
+    button.btn.btn-danger.w-100.mt-2 {
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+
+
+
+ }
